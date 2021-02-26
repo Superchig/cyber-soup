@@ -119,20 +119,8 @@
         <script>
             console.log(document.cookie);
 
-            function getCookie(name) {
-                const value = document.cookie
-                    .split("; ")
-                    .find(row => row.startsWith(name));
-
-                if (value === undefined) {
-                    return undefined;
-                } else {
-                    return value.split("=")[1];
-                }
-            }
-
             function renderLastScore() {
-                const lastScore = getCookie("lastScore");
+                const lastScore = window.localStorage.getItem("lastScore");
                 console.log(`lastScore: ${lastScore}`);
                 if (lastScore) {
                     document.getElementById("last_grade").innerHTML = `Your last grade was: ${lastScore}`;
@@ -151,7 +139,8 @@
 
                 document.getElementById("grade").innerHTML = result;
 
-                document.cookie = `lastScore=${result}`;
+                // document.cookie = `lastScore=${result}`;
+                window.localStorage.setItem("lastScore", result);
                 renderLastScore();
 
                 return false; // required to not refresh the page; just leave this here
