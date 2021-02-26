@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CyberAttack Technique Quiz</title>
+            <style>
+                body
+                {
+                    background-color: lightgreen;
+                    font-family: Helvetica;
+                }
+
+                #main
+                {
+                    width: 80%;
+                    max-width: 950px;
+                    border: 1px gray solid;
+                    margin: auto;
+                    padding: 10px;
+                    background-color: white;
+                    border-radius: 10px;
+                }
+
+                #header
+                {
+                    margin-top: 0;
+                    border: 2px solid black;
+                    padding: 5px;
+                    height: 250px;
+                    background: beige;
+                    background-image: url(https://sps.honeywell.com/content/sps/us/en/support/automation/resources/publications/unleash-power-dc-connectivity/cybersecurity-and-industrial-internet-things/_jcr_content/root/responsivegrid/responsivegrid_1123227982/responsivegrid/image.coreimg.jpeg/1609886445117.jpeg);
+                    color: white;
+                }
+
+                label
+                {
+                    display: block;
+                }
+
+                input
+                {
+                    width: 30px;
+                    margin-left: 20px;
+                }
+
+                h2
+                {
+                    clear: both;
+                    padding-top: 20px;
+                }
+            </style>
+
+
+    </head>
+                <body>
+                    <div id="main"><!-- open main div -->
+                    <div id="header"><!-- open header div -->
+                    <h1>Cyber Attack Quiz</h1>
+                        </div><!-- close header div -->
+                    <h1>Cyber Attack Quiz</h1>
+
+                <form id="form1">
+
+                <h2>What is an example of Repudiation of origin?</h2>
+                    <label for="var_string"><input type="radio" name="variable" value="25" id="var_string" />Someone filling out credit card info, hacker saying information didn’t go through, but they just intercepted the data.</label>
+                    <label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />Causing a DB server to slow down (maybe overwhelming it with requests) to cause delay to query response.</label>
+                    <label for="var_info"><input type="radio" name="variable" value="0" id="var_info" />A false denial that an entity received some information or message.</label>
+                    <label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>Causing a DB server to be unresponsive.</label>
+
+                <h2>What kind of Malware requires user interaction in order to corrupt the users computer? </h2>
+                    <label for="sub_string"><input type="radio" name="sub" value="25" id="sub_string"/>Virus.</label>
+                    <label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>Worm.</label>
+                    <label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Rootkit</label>
+                    <label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Torjan Horse.</label>
+
+                <h2>Which is the best description of concatenation?</h2>
+                    <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />Identifies a portion of a string.</label>
+                    <label for="cat_join"><input type="radio" name="con" value="25" id="cat_join" />A method to join strings.</label>
+                    <label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />Allows you to store information so it can be reused throughout the program</label>
+                    <label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />Allows you to make a decision based on a condition.</label>
+
+                <h2>Which is the best description of an if statement?</h2>
+                    <label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Identifies a portion of a string.</label>
+                    <label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />A method to join strings.</label>
+                    <label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Allows you to store information so it can be reused throughout the program</label>
+                    <label for="if_condition"><input type="radio" name="ifstate"  value="25" id="if_condition" />Allows you to make a decision based on a condition.</label>
+
+                <button type="submit" value="Submit">Submit</button>
+
+                </form>
+
+                    <p>Your grade is: <span id="grade">__</span></p>
+                    <p id="grade2"></p>
+                </div><!-- close main div -->
+
+                <script>
+                document.getElementById("form1").onsubmit=function() {
+                       variable = parseInt(document.querySelector('input[name = "variable"]:checked').value);
+                	   sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
+                	   con = parseInt(document.querySelector('input[name = "con"]:checked').value);
+                	   ifstate = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
+
+
+                	   result = variable + sub + con + ifstate;
+
+                	document.getElementById("grade").innerHTML = result;
+
+
+
+                return false; // required to not refresh the page; just leave this here
+                } //this ends the submit function
+
+                </script>
+
+
+
+                </body>
+</html>
