@@ -13,7 +13,7 @@ renderLastScore();
 
 document.getElementById("form1").onsubmit = function () {
   const checkedCircles = Array.from(document.querySelectorAll("input.quiz-circle:checked"));
-  console.log(checkedCircles);
+  // console.log(checkedCircles);
 
   const scoreAdder = (accumulator, current) => {
     const value = parseInt(current.value);
@@ -23,9 +23,11 @@ document.getElementById("form1").onsubmit = function () {
     return accumulator + value;
   }
   const scoreTotal = checkedCircles.reduce(scoreAdder, 0);
-  console.log(scoreTotal);
+  // console.log(scoreTotal);
 
-  result = (scoreTotal * 100) / checkedCircles.length;
+  const rightAnswers = document.querySelectorAll('input.quiz-circle[value = "1"]').length;
+
+  result = (scoreTotal * 100) / rightAnswers;
 
   document.getElementById("grade").innerHTML = result;
 
@@ -42,6 +44,8 @@ document.getElementById("form1").onsubmit = function () {
       label.classList.add("quiz-option-correct");
     } else if (input.checked) {
       label.classList.add("quiz-option-incorrect");
+    } else {
+      label.classList.remove("quiz-option-correct", "quiz-option-incorrect");
     }
   }
 

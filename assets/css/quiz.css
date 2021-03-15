@@ -58,6 +58,19 @@ div#quiz > h1 {
     font-size: 4em;
 }
 
+/* https://stackoverflow.com/questions/10908281/center-radio-button-below-label */
+form.stack-options label {
+    display: inline-block;
+    text-align: center;
+    /* margin: 0 0.2em; */
+    width: 15ch;
+}
+
+form.stack-options label input[type="radio"] {
+    display: block;
+    margin: 0.5em auto;
+}
+
 /* input {
     width: 30px;
     margin-left: 20px;
