@@ -33,6 +33,14 @@ body {
     display: block;
 } */
 
+.quiz-option-correct {
+    color: greenyellow;
+}
+
+.quiz-option-incorrect {
+    color: red;
+}
+
 .quiz-circle {
     width: 30px;
     margin-left: 20px;
