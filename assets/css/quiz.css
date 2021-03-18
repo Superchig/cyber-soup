@@ -75,7 +75,7 @@ form.stack-options label input[type="radio"] {
 form.stack-options p.explanation {
     display: none;
     text-align: center;
-    width: 45ch;
+    width: 40ch;
     vertical-align: middle;
     margin-bottom: 0;
 }
