@@ -1,7 +1,7 @@
-body {
+/* body { */
     /* background-color: lightblue; */
-    font-family: Helvetica;
-}
+    /* font-family: Helvetica; */
+/* } */
 
 #quiz {
     width: 80%;
@@ -69,6 +69,22 @@ form.stack-options label {
 form.stack-options label input[type="radio"] {
     display: block;
     margin: 0.5em auto;
+    /* padding-bottom: 50%; */
+}
+
+form.stack-options p.explanation {
+    display: none;
+    text-align: center;
+    width: 45ch;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+.partially-aligned-button {
+    /* display: flex;
+    justify-content: flex-end; */
+    margin-left: 16%;
+    margin-bottom: 2ch;
 }
 
 /* input {
