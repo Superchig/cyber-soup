@@ -67,6 +67,10 @@ for (const choiceQuiz of document.querySelectorAll(".password-choice")) {
 }
 
 function choiceQuizOnSubmit() {
+  if (this.querySelectorAll("label.quiz-option input:checked").length <= 0) {
+    return false;
+  }
+
   for (const option of this.querySelectorAll("label.quiz-option")) {
     colorLabel(option);
   }
