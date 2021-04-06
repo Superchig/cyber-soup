@@ -23,15 +23,15 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1024"
+     inkscape:window-height="1048"
      id="namedview100"
      showgrid="false"
      inkscape:pagecheckerboard="true"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="298.74728"
-     inkscape:cy="250.01912"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="313.21921"
+     inkscape:cy="215.56275"
      inkscape:window-x="0"
-     inkscape:window-y="56"
+     inkscape:window-y="32"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg1307" />
   <metadata
@@ -547,8 +547,4 @@
      cx="585.26666"
      cy="28.899099"
      r="0.37471667" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m 279.71631,189.90294 22.01883,-9.00221"
-     id="path114" />
 </svg>
