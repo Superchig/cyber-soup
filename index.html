@@ -1,156 +1,316 @@
-<!DOCTYPE html>
 <html>
+	<head>
+		<title>Index</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/quiz.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
 
-<head>
-    <title>JavaScript Quiz</title>
-    <style>
-        body {
-            background-color: lightblue;
-            font-family: Helvetica;
-        }
+			<!-- Header -->
+				<header id="header">
+					<div class="logo container">
+						<div>
+							<h1><a href="index.html" id="logo">Index</a></h1>
+							<!-- <p>- SCI 250</p> -->
+						</div>
+					</div>
+				</header>
 
-        #main {
-            width: 80%;
-            max-width: 950px;
-            border: 1px gray solid;
-            margin: auto;
-            padding: 10px;
-            background-color: white;
-            border-radius: 10px;
-        }
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="history.html">History</a></li>
+						<li><a href="passwords.html">Passwords</a></li>
+						<li><a href="avoiding_viruses.html">Avoiding Viruses</a></li>
+						<li class="current"><a href="careers.html">Careers</a></li>
+					</ul>
+				</nav>
 
-        #header {
-            margin-top: 0;
-            border: 2px solid black;
-            padding: 5px;
-            height: 250px;
-            background: beige;
-            background-image: url("code.jpg");
-            color: white;
-        }
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="content">
 
-        label {
-            display: block;
-        }
+									<!-- Content -->
 
-        input {
-            width: 30px;
-            margin-left: 20px;
-        }
+										<article class="box page-content">
 
-        h2 {
-            clear: both;
-            padding-top: 20px;
-        }
-    </style>
+											<header>
+												<h2>Career Opprotunities</h2>
 
+												<ul class="meta">
+													<li> By David Aarhus</li>
+													<!-- <li class="icon fa-comments"><a href="#">1,024</a></li> -->
+												</ul>
+											</header>
 
-</head>
+											<section>
+												<span class="image featured"><img align="center" src="https://insights.dice.com/wp-content/uploads/2020/06/shutterstock_1451794139.jpg" alt="" /></span>
+												<h3>Salary Averages </h3>
+												<!-- https://www.w3schools.com/html/html_lists.asp -->
+												<li>
+													Cybersecurity Engineer $99,000
+												</li>
+												<li>
+													Cybersecurity Analyst $96,000
+												</li>
+												<li>
+													Cybersecurity Consultant $91,000
+												</li>
+												<li>
+													Cybersecurity Manager/Administrator $103,000
+												</li>
+												<li>
+													Systems Engineer $99,000
+												</li>
+												<li>
+													Network Engineer/Architect $112,690*
+												</li>
+												<li>
+													Software Developer/Engineer $107,510*
+												</li>
+												<li>
+													Vulnerability Analyst/Penetration Tester $104,000
+												</li>
+													<dd>&nbsp;&nbsp;&nbsp;&nbsp;</dd>
 
-<body>
+												<span class="image featured"><img align="center" src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/Blog_No-tech-degree.jpg.webp" alt="" /></span>
+												<dd>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* These jobs don't require as much education as others. 22% of cybersecurity specialist postings require less than a bachelor's degree. </dd>
+												<dd>&nbsp;&nbsp;&nbsp;&nbsp;</dd>
 
-    <body>
-        <div id="main">
-            <!-- open main div -->
-            <div id="header">
-                <!-- open header div -->
-                <h1>JavaScript Quiz</h1>
-            </div><!-- close header div -->
+											<!-- </section>
 
-            <h1>JavaScript Quiz</h1>
+											<section> -->
+												<h3>Cyber security - Quiz Material </h3>
+												<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you want to test your knowledge on Cybersecurity Career infomation watch the video posted below and submit the quiz. Your
+												score will be calculate once you submit so you will be able to see how you did!</p>
+												<p align="center"><iframe width="810" height="535" src="https://www.youtube.com/embed/5wWQ955w0Lw"
+													title="YouTube video player"
+													frameborder="0"
+													allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+												</iframe>
+											</section>
 
-            <form id="form1">
+											<section id ="main">
+												<div id="quiz">
 
-                <h2>Which is the best description of a variable?</h2>
-                <label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />Identifies a
-                    portion of a string.</label>
-                <label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />A method to join
-                    strings.</label>
-                <label for="var_info"><input type="radio" name="variable" value="25" id="var_info" />Allows you to store
-                    information so it can be reused throughout the program</label>
-                <label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition" />Allows you
-                    to make a decision based on a condition.</label>
+													<h1>Video Quiz</h1>
 
-                <h2>Which is the best description of the substring method?</h2>
-                <label for="sub_string"><input type="radio" name="sub" value="25" id="sub_string" />Identifies a portion
-                    of a string.</label>
-                <label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join" />A method to join
-                    strings.</label>
-                <label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Allows you to store
-                    information so it can be reused throughout the program</label>
-                <label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Allows you to
-                    make a decision based on a condition.</label>
+													<form id="form1">
 
-                <h2>Which is the best description of concatenation?</h2>
-                <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />Identifies a portion
-                    of a string.</label>
-                <label for="cat_join"><input type="radio" name="con" value="25" id="cat_join" />A method to join
-                    strings.</label>
-                <label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />Allows you to store
-                    information so it can be reused throughout the program</label>
-                <label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />Allows you to
-                    make a decision based on a condition.</label>
+														<h2>What do companies implement to protect sensitive infomation?</h2>
+														<label class="quiz-option" for="var_string">
+															<input class="quiz-circle" type="radio" name="variable" value="0" id="var_string" />
+															Do not allow employees to try and hack into their network and databases.
+														</label>
+														<label class="quiz-option" for="var_join">
+															<input class="quiz-circle" type="radio" name="variable" value="0" id="var_join" />
+															Push everything to cloud storage.
+														</label>
+														<label class="quiz-option" for="var_info">
+															<input class="quiz-circle" type="radio" name="variable" value="1" id="var_info" />
+															Firewalls and data encryption programs
+														</label>
+														<label class="quiz-option" for="var_condition">
+															<input class="quiz-circle" type="radio" name="variable" value="0" id="var_condition" />
+															Updates software and hardware every two weeks.
+														</label>
 
-                <h2>Which is the best description of an if statement?</h2>
-                <label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Identifies a
-                    portion of a string.</label>
-                <label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />A method to join
-                    strings.</label>
-                <label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Allows you to store
-                    information so it can be reused throughout the program</label>
-                <label for="if_condition"><input type="radio" name="ifstate" value="25" id="if_condition" />Allows you
-                    to make a decision based on a condition.</label>
+														<h2>It is impossible to become a Cybersecurity professional without a Bachelors degree.</h2>
+														<label class="quiz-option" for="sub_string">
+															<input class="quiz-circle" type="radio" name="sub" value="0" id="sub_string" />
+															True
+														</label>
+														<label class="quiz-option" for="sub_join">
+															<input class="quiz-circle" type="radio" name="sub" value="1" id="sub_join" />
+															False
+														</label>
 
-                <button type="submit" value="Submit">Submit</button>
+														<h2>Where do Cybersecurity professionals tend to work</h2>
+														<label class="quiz-option" for="cat_string">
+															<input class="quiz-circle" type="radio" name="con" value="0" id="cat_string" />
+															Computer Systems Design
+														</label>
+														<label class="quiz-option" for="cat_join">
+															<input class="quiz-circle" type="radio" name="con" value="0" id="cat_join" />
+															Finance and Insurance
+														</label>
+														<label class="quiz-option" for="cat_info">
+															<input class="quiz-circle" type="radio" name="con" value="0" id="cat_info" />
+															Management
+														</label>
+														<label class="quiz-option" for="cat_condition">
+															<input class="quiz-circle" type="radio" name="con" value="1" id="cat_condition" />
+															All the above
+														</label>
 
-            </form>
+														<h2>What is the top 10% of Cybersecurity professionals making for a salary?</h2>
+														<label class="quiz-option" for="if_string">
+															<input class="quiz-circle" type="radio" name="ifstate" value="0" id="if_string" />
+															$73,000
+														</label>
+														<label class="quiz-option" for="if_join">
+															<input class="quiz-circle" type="radio" name="ifstate" value="0" id="if_join" />
+															$98,000
+														</label>
+														<label class="quiz-option" for="if_info">
+															<input class="quiz-circle" type="radio" name="ifstate" value="0" id="if_info" />
+															$126,000
+														</label>
+														<label class="quiz-option" for="if_condition">
+															<input class="quiz-circle" type="radio" name="ifstate" value="1" id="if_condition" />
+															$156,000
+														</label>
 
+														<button type="submit" value="Submit">Submit</button>
 
-            <p>Which is the best description of a variable?</p>
-            <p>Which is the best description of the substring method?</p>
-            <p>Which is the best description of concatenation?</p>
-            <p>Which is the best description of an if statement?</p>
+													</form>
 
-            <p>Your grade is: <span id="grade">__</span></p>
-            <p id="grade2"></p>
-            <p id="last_grade"></p>
-        </div><!-- close main div -->
+													<p>Your grade is: <span id="grade">__</span></p>
+													<!-- <p id="grade2"></p> -->
+													<p id="last_grade"></p>
+												</div><!-- close main div -->
+											</section>
 
-        <script>
-            console.log(document.cookie);
+										</article>
 
-            function renderLastScore() {
-                const lastScore = window.localStorage.getItem("lastScore");
-                console.log(`lastScore: ${lastScore}`);
-                if (lastScore) {
-                    document.getElementById("last_grade").innerHTML = `Your last grade was: ${lastScore}`;
-                }
-            }
-            renderLastScore();
+								</div>
+							</div>
+							<div class="col-12">
 
-            document.getElementById("form1").onsubmit = function () {
-                variable = parseInt(document.querySelector('input[name = "variable"]:checked').value);
-                sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
-                con = parseInt(document.querySelector('input[name = "con"]:checked').value);
-                ifstate = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
+								<!-- Features -->
+									<section class="box features">
+										<h2 class="major"><span>Skills Needed</span></h2>
+										<div>
+											<div class="row">
+												<div class="col-3 col-6-medium col-12-small">
 
+													<!-- Feature -->
+														<section class="box feature">
+															<a href="#" class="image featured"><img src="https://www.freecodecamp.org/news/content/images/2020/01/linux-image.jpeg" alt="" /></a>
+															<h3><a href="#">Linux</a></h3>
+															<p>
+																Being able to work with a wide variety of operating systems and devices shows employers your verstility.
+																Linux is desired because of its versatility and broad use.
+															</p>
+														</section>
 
-                result = variable + sub + con + ifstate;
+												</div>
+												<div class="col-3 col-6-medium col-12-small">
 
-                document.getElementById("grade").innerHTML = result;
+													<!-- Feature -->
+														<section class="box feature">
+															<a href="#" class="image featured"><img src="https://www.freesumes.com/wp-content/uploads/2020/09/cyber-security-jobs.jpg" alt="" /></a>
+															<h3><a href="#">Project Management</a></h3>
+															<p>
+																IT professionals need to manage many projects at once, and strengthening this soft skill can give you a leg up.
+															</p>
+														</section>
 
-                // document.cookie = `lastScore=${result}`;
-                window.localStorage.setItem("lastScore", result);
-                renderLastScore();
+												</div>
+												<div class="col-3 col-6-medium col-12-small">
 
-                return false; // required to not refresh the page; just leave this here
-            } //this ends the submit function
+													<!-- Feature -->
+														<section class="box feature">
+															<a href="#" class="image featured"><img src="https://www.baycollege.edu/_resources/images/academics/programs/computer-information-systems-software-network-support/network-specialist-server-room.jpg" alt="" /></a>
+															<h3><a href="#">Information Systems</a></h3>
+															<p>
+																Having a knowledge of information systems is essential to a successful career in cybersecurity.
+																An information system is an organized system for the collection, organization and storage of data.
+															</p>
+														</section>
 
-        </script>
+												</div>
+												<div class="col-3 col-6-medium col-12-small">
 
+													<!-- Feature -->
+														<section class="box feature">
+															<a href="#" class="image featured"><img src="https://www.curvearro.com/wp-content/uploads/2019/10/Ethical-Hacking-Curvearro.jpg" alt="" /></a>
+															<h3><a href="#">Understanding of Hacking</a></h3>
+															<p>
+																To effectively protect an organization's network and infrastructure,
+																you'll need to know how they can be exploited in the first place
+															</p>
+															<!-- https://online.champlain.edu/blog/top-cybersecurity-skills-in-high-demand -->
+														</section>
 
-    </body>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<!-- <li><a href="#" class="button large">Do Something</a></li> -->
+														<!-- <li><a href="#" class="button alt large">Think About It</a></li> -->
+													</ul>
+												</div>
+											</div>
+										</div>
+									</section>
 
-</body>
+							</div>
+						</div>
+					</div>
+				</section>
 
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-12">
+
+								<!-- About -->
+									<section>
+										<h2 class="major"><span>Our Mission Statement</span></h2>
+										<p style="color:black">
+											Our goal is to provide adequate infomation for young kids and adults who may have an interest in working
+											in the Cybersecurity industry. Though it has recently become a very sought after profession we feel everyone
+											should have accesses to the resources and knowledge of knowing what it takes to make it in the industry.
+										</p>
+									</section>
+
+							</div>
+							<div class="col-12">
+
+								<!-- Contact -->
+
+									<section>
+										<h2 class="major"><span>Site Developers</span></h2>
+										<ul class="contact">
+											<li style="color:black">David</li>
+											<li style="color:black">Lucas</li>
+											<li style="color:black">Chris</li>
+											<li style="color:black">Gabriel</li>
+										</ul>
+									</section>
+
+							</div>
+						</div>
+
+						<!-- Copyright -->
+							<div id="copyright">
+								<ul class="menu">
+									<li>&copy; CyberSoup. All rights reserved</li><li>Design: <a> Lucas </a></li>
+								</ul>
+							</div>
+
+					</div>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/answer_quiz.js"></script>
+
+	</body>
 </html>
