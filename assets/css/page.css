@@ -5,3 +5,26 @@ section a:link {
 section a:visited {
     color: orange;
 }
+
+::selection {
+    color: purple;
+    background: yellow;
+}
+
+.box.feature .image.featured {
+    max-height: 12em;
+    margin: auto;
+}
+
+.box.feature .image.featured img {
+    max-height: inherit;
+}
+
+/* Disable the dotted overlay for images */
+.image.featured::before {
+    background: none;
+}
+
+.row > .col-9 {
+    margin: auto;
+}
