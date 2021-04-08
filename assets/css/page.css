@@ -7,13 +7,15 @@ section a:visited {
 }
 
 ::selection {
-    color: purple;
+    color: black;
     background: yellow;
 }
 
 .box.feature .image.featured {
-    max-height: 12em;
+    max-height: 10em;
+    width: unset;
     margin: auto;
+    display: inline-block;
 }
 
 .box.feature .image.featured img {
@@ -27,4 +29,61 @@ section a:visited {
 
 .row > .col-9 {
     margin: auto;
+}
+
+/* p {
+    margin-bottom: 1em;
+} */
+
+ul ul {
+    padding-left: 2.5em;
+    margin-bottom: unset;
+}
+
+ul {
+    margin-bottom: 1em;
+}
+
+table td img {
+    max-width: 1.5em;
+}
+
+/* https://www.tipsandtricks-hq.com/simple-table-of-contents-toc-using-pure-html-and-css-code-9217 */
+#toc_container {
+    background: none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 3em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0em;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+/* https://css-tricks.com/hash-tag-links-padding/ */
+h2::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -1.8em; 
+  height: 1.8em; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+
+h3::before {
+  display: block; 
+  content: " "; 
+  margin-top: -3.5em; 
+  height: 3.5em; 
+  visibility: hidden; 
+  pointer-events: none;
 }
