@@ -69,6 +69,10 @@ table td img {
     list-style: outside none none !important;
 }
 
+#toc_container ul {
+    margin-bottom: 0.5em;
+}
+
 /* https://css-tricks.com/hash-tag-links-padding/ */
 h2::before { 
   display: block; 
