@@ -52,6 +52,7 @@ table td img {
 #toc_container {
     background: none repeat scroll 0 0;
     border: 1px solid #aaa;
+    border-radius: 0.5em;
     display: table;
     font-size: 95%;
     margin-bottom: 3em;
