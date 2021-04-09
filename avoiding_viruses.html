@@ -343,45 +343,26 @@
 		<script src="assets/js/answer_quiz.js"></script>
 		<script>
 		  createPasswordQuiz(
-        "jonny",
+        "One",
         1,
-        ["True", "False"],
-        `FALSE. There are a variety of both paid and free antiviruses available for download.`
+        ["1) It is *not* possible to get an antivirus if I don't want to spend money", "2) It *is* possible to get an antivirus if I don't want to spend some money"],
+        `2) is correct. There are a variety of both paid and free antiviruses available for download. If you need a list, check for a link in the above article.`
       );
       createPasswordQuiz(
-        "diagonal",
+        "Two",
         1,
-        ["1qaz2wsx3edc", "thefirstkiss", "neither"],
-        "1qaz2wsx3edc actually follows a well-known keyboard pattern (try typing it out, if you want), while thefirstkiss isn't nearly as commonly used."
+        ["1) Multifactor authentication makes my computer more secure from viruses", "2) Multifactor authentication makes my accounts more secure from hackers"],
+        `2) is correct. The purpose of multifactor authentication is to require you to have more than one form of authentication, such as both your phone as well as your password, 
+		which means hackers need to have information on both in order to access your account.`
       );
       createPasswordQuiz(
-        "punk",
-        1,
-        ["abc123def789", "293070844005", "neither"],
-        `abc123def789 is much more memorable, but it's also far more predictable, as it uses easily-guessable patterns.
-        293070844005 is far more secure as a password, since it's a more random series of characters.`
-      );
-      createPasswordQuiz(
-        "punk",
+        "Three",
         0,
-        ["bradybunch", "qwertyuiop", "neither"],
-        `Even though The Brady Bunch is an American cultural icon and thus is used in dictionary attacks,
-        qwertyuiop is used more broadly, so dictionary attacks know to guess it first.`
+        ["If I get a popup on my browser saying my computer has a virus, it's likely *not* true", "If I get a popup on my browser saying my computer has a virus, it's likely *true*"],
+        `1) is correct. This is likely a form of scareware, made to scare you into doing something. Don't click on popups like this, and simply close the page. You can run an antivurus 
+        scan to be extra safe too.`
       );
-      createPasswordQuiz(
-        "punk",
-        1,
-        ["punk4life", "punkforlife", "neither"],
-        `Using the number '4' in place of the word 'for' is actually a really well-known (and common)
-				password creation technique. Password crackers will have to spend more time on a password with
-				the extra characters in 'for' than with using a number in its place.`
-      );
-      createPasswordQuiz(
-        "kalelove",
-        1,
-        ["iloveyou88", "ieatkale88", "neither"],
-        `Since the string "iloveyou" is one of the most commonly used in passwords, ieatkale88 is far more secure than iloveyou88.`
-      );
+    
 
       initializeTableOfContents();
 		</script>
