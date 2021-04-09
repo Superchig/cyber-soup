@@ -1,5 +1,7 @@
 <!-- Sources: -->
 <!-- https://www.technadu.com/what-is-scareware-what-should-you-do-about-it/212876/ -->
+<!-- https://heimdalsecurity.com/blog/virus-vs-worm/ -->
+<!-- https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams -->
 
 
 <!DOCTYPE HTML>
@@ -15,6 +17,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/quiz.css" />
+		<!-- <link rel="stylesheet" href="assets/css/page.css" /> -->
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -35,20 +38,22 @@
 								<li><a href="index.html">Home</a></li>
 								<li><a href="history.html">History</a></li>
 								<li><a href="passwords.html">Passwords</a></li>
-								<li class="current"><a href="avoiding_viruses.html">Avoiding Viruses</a></li>
+								<li class="current"><a href="avoiding_viruses.html">Avoiding Malware</a></li>
 								<li><a href="careers.html">Careers</a></li>
 							</ul>
 						</nav>
 		
 					<!-- Main -->
-			<!-- Banner -->
-				<section id="banner">
-					<div class="content">
-						<h2>Avoiding Viruses</h2>
-						<!-- <p>A free responsive site template built on HTML5, CSS3, and some other stuff</p>
-						<a href="#main" class="button scrolly">Alright let's go</a> -->
+			<!-- Header -->
+			<header id="header">
+				<div class="logo container">
+					<div>
+						<h1 id="logo">Avoiding Malware</h1>
+						<!-- <p>- SCI 250</p> -->
 					</div>
-				</section>
+				</div>
+			</header>
+
 
 			<!-- Main -->
 				<section id="main">
@@ -56,9 +61,20 @@
 						<div class="row gtr-200">
 							<div class="col-12">
 
+								<article class="box page-content">
+
+									<header>
+										<h2>Avoiding Malware</h2>
+
+										<ul class="meta">
+											<li> By Lucas Torti</li>
+											<!-- <li class="icon fa-comments"><a href="#">1,024</a></li> -->
+										</ul>
+									</header>
+								
+
 								<!-- Highlight -->
 									<section class="box highlight">
-
 
 								<!-- Virus Warning Image -->
 
@@ -66,7 +82,7 @@
 
 											
 												<section class="box feature">
-													<a href="#" class="image featured"><img src="images/VirusWarning.png" alt="" /></a>
+													<a class="image featured"><img src="images/VirusWarning.png" alt="An image of scareware." /></a>
 												</section>
 
 										</div>
@@ -129,12 +145,12 @@
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/PhisingEmail.png" alt="" /></a>
-															<h3><a href="#">Phishing</a></h3>
+															<a class="image featured"><img src="images/PhisingEmail.png" alt="" /></a>
+															<h3><a>Phishing</a></h3>
 															<p>
 																Is when hackers try to get information from you by pretending to be something they aren't.
-																The email above looks like it's from Netflix, but really it's from someone who wants to steal your data, like account name and password, or maybe even your
-																credit card information.
+																The email above looks like it's from Netflix, but really it's from someone who wants to steal your data, like account name and password, or even your
+																credit card information. 
 															</p>
 														</section>
 														
@@ -144,10 +160,10 @@
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/HackerMan.png" alt="" /></a>
-															<h3><a href="#">Trojans</a></h3>
+															<a class="image featured"><img src="images/HackerMan.png" alt="" /></a>
+															<h3><a>Trojans</a></h3>
 															<p>
-																Trojans are programs installed because they look like useful software, but are actually malware. Once a user installs a trojan,
+																Trojans are programs installed by the user because they look like useful software, but are actually malware. Once a user installs a trojan,
 																they can do things like record that user's data, install more malware, or give a hacker control over the device.
 															</p>
 														</section>
@@ -157,10 +173,11 @@
 
 													<!-- Feature -->
 														<section class="box feature">
-															<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-															<h3><a href="#">Talk about another thing</a></h3>
+															<a class="image featured"><img src="images/325px-Virus_Blaster.jpg" alt="" /></a>
+															<h3><a>Worms</a></h3>
 															<p>
-																This is a sentence.
+																A worm can spread itself from machine to machine automatically. This can be done over computer networks, and through email attachments. Worms 
+																can modify or delete computer files, as well as replicate themselves. They can also install other programs, making the problem even worse.
 															</p>
 														</section>
 
@@ -169,23 +186,24 @@
 												<div>
 													<h2 class="major"><span>How to protect yourself</span></h2>
 													<ul>
-														<li>Don't sign into your account through a link in an email. Go to the real website so you know for sure it's the real 
-															company and not someone trying to steal your data. </li><br>
+														<li>Enable <a href = "https://www.hausmann-johnson.com/blog/the-importance-of-multifactor-authentication">multifactor authentication</a> when you can. This makes it much harder for individuals to steal your account information, making you
+															less vulnerable to phishing. </li><br>
 														<li>Before installing software, search it up online and make sure it's not a trojan. Also be extra careful about pirated or otherwise illegal content, as it can contain 
 															malicious software without you knowing. </li><br>
+														<li>Don't open email attachments from people you don't know, as they can contain worms.</li><br>
 														<li>Update your software. It is annoying, but as technology ages, people find more ways to hack into it. Newer software, in general, is safer
 															than older software.</li><br>
-														<li>Install an antivirus if you can. There are free ones out there, but be sure to do research. Some viruses try to disguise themselves as antiviruses,
-															but that should be easy to spot with some research.
+														<li>Install an antivirus if you can. There are both free and paid ones available. It is usually the case that paid antivirus software has more features than its free
+															 couterpart. I't reccommended that you look at various <a href="https://www.tomsguide.com/us/best-antivirus,review-2588.html#xenforo-comments-203178">antivirus softwares</a>.
 														</li>
 													</ul><br>
 
 
-													<h3>Some definitions</h3>
+													<!-- <h3>Some definitions</h3>
 													<ul>
 														<li>Viruses can replicate themselves.</li>
 														<li>All viruses are malware, but not all malware is a virus.</li>
-													</ul>
+													</ul> -->
 												</div>
 
 											</div>
@@ -198,22 +216,25 @@
 
 
 						<h1>More Information</h1>
-						<h3>If you would like to learn more practial tech tips about protecting youreself online, watch the video below</h3><br>
+						<h3>If you would like to learn more practial tech tips about protecting yourself online, watch the video below</h3><br>
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/SbqC2k4vbXY?start=80" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div><br><br>
+				</article>
 
 
 
 
+				<div id="quiz">
+					<!-- The answer_quiz script requires this stub of a form to exist. -->
+					<!-- TODO: Refactor answer_quiz script to no longer need these special-id elements -->
+					<form id="form1" style="display: none">
+					  <div id="last_grade"></div>
+					</form>
 
-					Info for future quiz:
-					A browser pop up just told you that you have a virus, and that you should download an intivirus through a link it provides. What should you do?
-					Click on link 
-								it provides.
-					Restart your computer.
-					Close that browser window.
-					Reinstall your 
-								operating system.
+					<h4>Try selecting the password you think is most secure.</h4>
+
+					<div id="password-quizzes"></div>
+				  </div>
 
 
 	
@@ -226,7 +247,41 @@
 
 				
 
+<!-- Footer -->
+<footer id="footer">
+	<div class="container">
+		<div class="row gtr-200">
 
+			<div class="col-12">
+
+				<!-- Contact -->
+
+					<section>
+						<h2 class="major"><span>Site Developers</span></h2>
+						<ul class="contact">
+							<li style="color:black">David</li>
+							<li style="color:black">Lucas</li>
+							<li style="color:black">Chris</li>
+							<li style="color:black">Gabriel</li>
+						</ul>
+					</section>
+
+			</div>
+		</div>
+
+		<!-- Copyright -->
+			<div id="copyright">
+				<ul class="menu">
+					<li>&copy; CyberSoup. All rights reserved</li><li>Design: <a href="https://html5up.net/"> HTML5UP</a>, Lucas</li>
+				</ul>
+			</div>
+
+	</div>
+</footer>
+
+<!-- End of Footer -->
+
+</div>
 				
 
 			<!-- Footer -->
@@ -278,13 +333,57 @@
 		<!-- </div> -->
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/answer_quiz.js"></script>
+		<script>
+		  createPasswordQuiz(
+        "jonny",
+        1,
+        ["True", "False"],
+        `FALSE. There are a variety of both paid and free antiviruses available for download.`
+      );
+      createPasswordQuiz(
+        "diagonal",
+        1,
+        ["1qaz2wsx3edc", "thefirstkiss", "neither"],
+        "1qaz2wsx3edc actually follows a well-known keyboard pattern (try typing it out, if you want), while thefirstkiss isn't nearly as commonly used."
+      );
+      createPasswordQuiz(
+        "punk",
+        1,
+        ["abc123def789", "293070844005", "neither"],
+        `abc123def789 is much more memorable, but it's also far more predictable, as it uses easily-guessable patterns.
+        293070844005 is far more secure as a password, since it's a more random series of characters.`
+      );
+      createPasswordQuiz(
+        "punk",
+        0,
+        ["bradybunch", "qwertyuiop", "neither"],
+        `Even though The Brady Bunch is an American cultural icon and thus is used in dictionary attacks,
+        qwertyuiop is used more broadly, so dictionary attacks know to guess it first.`
+      );
+      createPasswordQuiz(
+        "punk",
+        1,
+        ["punk4life", "punkforlife", "neither"],
+        `Using the number '4' in place of the word 'for' is actually a really well-known (and common)
+				password creation technique. Password crackers will have to spend more time on a password with
+				the extra characters in 'for' than with using a number in its place.`
+      );
+      createPasswordQuiz(
+        "kalelove",
+        1,
+        ["iloveyou88", "ieatkale88", "neither"],
+        `Since the string "iloveyou" is one of the most commonly used in passwords, ieatkale88 is far more secure than iloveyou88.`
+      );
 
+      initializeTableOfContents();
+		</script>
 	</body>
 </html>
