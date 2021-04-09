@@ -6,6 +6,10 @@ section a:visited {
     color: orange;
 }
 
+section {
+    margin-bottom: 2em;
+}
+
 ::selection {
     color: black;
     background: yellow;
