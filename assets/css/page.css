@@ -1,18 +1,5 @@
-section a:link {
-    color: yellow;
-}
-
-section a:visited {
-    color: orange;
-}
-
 section {
     margin-bottom: 2em;
-}
-
-::selection {
-    color: black;
-    background: yellow;
 }
 
 .box.feature .image.featured {
