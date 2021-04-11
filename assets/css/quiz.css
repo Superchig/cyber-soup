@@ -80,11 +80,16 @@ form.stack-options p.explanation {
     margin-bottom: 0;
 }
 
-.partially-aligned-button {
-    /* display: flex;
-    justify-content: flex-end; */
-    margin-left: 22%;
-    margin-bottom: 2ch;
+form.password-choice {
+    margin-top: 20px;
+}
+
+form.password-choice button[type="submit"] {
+    padding: 0.4em 0.4em;
+}
+
+div#password-quizzes form div {
+    text-align: center;
 }
 
 /* input {

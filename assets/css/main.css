@@ -29,6 +29,20 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+	section a:link {
+		color: orange;
+	}
+	
+	section a:visited {
+		color: #c43c43;
+	}
+
+	
+	::selection {
+		color: #754043;
+		background: orange;
+	}
+
 body {
 	line-height: 1;
 }

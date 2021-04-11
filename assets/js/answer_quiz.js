@@ -128,7 +128,7 @@ function createPasswordQuiz(
 
   const submitDiv = document.createElement("div");
   rootForm.appendChild(submitDiv);
-  submitDiv.classList.add("partially-aligned-button");
+  // submitDiv.classList.add("aligned-button");
 
   const submitButton = document.createElement("button");
   submitDiv.appendChild(submitButton);
