@@ -14,9 +14,9 @@ section {
 }
 
 /* Disable the dotted overlay for images */
-.image.featured::before {
+/* .image.featured::before {
     background: none;
-}
+} */
 
 .row > .col-9 {
     margin: auto;
