@@ -387,6 +387,15 @@ input, select, textarea {
 			width: 75%;
 		}
 
+		/* NOTE(Chris): I've added this to center specific columns */
+		.col-center {
+			margin: auto;
+		}
+
+		.col-9-custom {
+			width: 75%;
+		}
+
 		.row > .off-9 {
 			margin-left: 75%;
 		}
